@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container for Resume */
+.container {
+    display: flex;
+    width: 65%;
+    margin: 10px auto;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section */
+.left {
+    width: 30%;
+    float: left;
+    background: #f8f9fa;
+    padding: 20px;
+}
+
+/* Right Section */
+.right {
+    width: 70%;
+    float: right;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* General Lists (for bullet points) */
+ul {
+    list-style: disc;  /* Enables bullet points */
+    padding-left: 20px; /* Indent bullets properly */
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Experience Block */
+#experience div {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f1f1f1;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+}
+
+#experience div strong {
+    display: block;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Contact Info */
+#contact p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+/* Education Section */
+#education {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* skills Section */
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#skills li {
+    background: #e9ecef;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    list-style: none;
+}
+
+/* Print Styles */
+@media print {
+    body * {
+        visibility: hidden; /* Hide everything */
+    }
+
+    .container, .container * {
+        visibility: visible; /* Show only the container and its content */
+    }
+
+    .container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%; /* Optional: use full width for print */
+        box-shadow: none; /* Remove shadow for clean print */
+    }
+}
+
