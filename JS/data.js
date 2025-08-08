@@ -10,7 +10,7 @@ const profileData = {
     experience: [
         {
             company: "Carelon Healthcare Services",
-            role: "Associate Software Engineer I",
+            role: "Software Engineer II",
             duration: "July 2022 – Present",
             responsibilities: [
                 "Developed and maintained ETL processes using Python for efficient data extraction, transformation, and loading.",
