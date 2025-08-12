@@ -4,7 +4,7 @@ const profileData = {
     contact: {
         address: "Rourkela, Odisha - 769004",
         phone: "+91-6370039436",
-        email: "sonalshaw237@gmail.com",
+        email: "sonalshawofficial@gmail.com",
         linkedin: "https://www.linkedin.com/in/sonal-shaw-691802207/"
     },
     experience: [
