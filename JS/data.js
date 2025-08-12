@@ -1,6 +1,6 @@
 const profileData = {
     name: "Sonal Shaw",
-    about: "I'm a data science engineer with nearly 3 years of experience, passionate about creating impactful solutions. I lead collaboratively, uniting teams, and blend strategic thinking with hands-on work. Eager to learn and adapt, I aim to drive results and grow in a meaningful career.",
+    about: "I'm a data science engineer with 3 years of experience, passionate about creating impactful solutions. I lead collaboratively, uniting teams, and blend strategic thinking with hands-on work. Eager to learn and adapt, I aim to drive results and grow in a meaningful career.",
     contact: {
         address: "Rourkela, Odisha - 769004",
         phone: "+91-6370039436",
