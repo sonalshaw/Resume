@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let ul = document.createElement("ul");
         job.responsibilities.forEach(task => {
             let li = document.createElement("li");
-            li.textContent = task;
+            li.innerHTML = task;
             ul.appendChild(li);
         });
 
@@ -42,3 +42,4 @@ document.addEventListener("DOMContentLoaded", () => {
         CGPA: ${profileData.education.cgpa}
     `;
 });
+
