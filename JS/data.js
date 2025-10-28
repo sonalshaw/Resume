@@ -13,15 +13,15 @@ const profileData = {
             role: "Software Engineer II",
             duration: "July 2022 – Present",
             responsibilities: [
-                "Developed and maintained ETL processes using Python for efficient data extraction, transformation, and loading.",
-                "Created scripts for retrieving and transforming large datasets from Hadoop clusters, ensuring seamless data flow.",
-                "Handled data retrieval from Hadoop, optimizing query performance and data processing workflows.",
-                "Managed Control-M job scheduling to automate and monitor data processing tasks, ensuring minimal downtime.",
-                "Monitored and maintained logs for data processing workflows, resolving issues promptly to maintain system stability.",
-                "Led AWS code deployments using Bitbucket, managing continuous integration and delivery pipelines.",
-                "Wrote complex SQL queries for data validation, reconciliation, and reporting, ensuring high data accuracy.",
-                "Administered and maintained the AEDL portal, ensuring secure and efficient access to enterprise data resources.",
-                "Designed and optimized Snowflake data loading processes through AWS, improving data storage and retrieval efficiency."
+                "Developed and maintained ETL processes using <em><b>Python</b></em> for efficient data extraction, transformation, and loading, ensuring streamlined data movement and reducing manual intervention.",
+                "Created scripts for retrieving and transforming large datasets from <em><b>Hadoop</b></em> clusters, ensuring seamless data flow to support analytical and reporting needs.",
+                "Handled data retrieval from <em><b>Hadoop</b></em>, optimizing query performance and data processing workflows to improve overall system efficiency and scalability.",
+                "Managed <em><b>Control-M</b></em> job scheduling to automate and monitor data processing tasks, ensuring reliability and reducing the risk of human errors in recurring workflows.",
+                "Monitored and maintained logs for data processing workflows, resolving issues promptly to maintain system stability and data pipeline integrity.",
+                "Led <em><b>AWS</b></em> code deployments using <em><b>Bitbucket</b></em>, managing continuous integration and delivery pipelines to enhance deployment speed and reduce manual effort.",
+                "Wrote complex <em><b>SQL</b></em> queries for data validation, reconciliation, and reporting, ensuring high data accuracy and supporting data-driven business decisions.",
+                "Administered and maintained the <em><b>AEDL portal</b></em>, ensuring secure and efficient access to enterprise data resources for improved collaboration and operational visibility.",
+                "Designed and optimized <em><b>Snowflake</b></em> data loading processes through <em><b>AWS</b></em>, improving data storage and retrieval efficiency to support faster analytics and reporting."
             ]
         }
     ],
@@ -32,8 +32,7 @@ const profileData = {
     ],
     skills: [
         "JAVA", "Python", "SQL",
-        "HTML", "CSS", "JavaScript",
-        "Data Structures", "Web Development", "Hadoop",
+        "Data Structures", "Hadoop",
         "Snowflake", "AWS", "Control-M"
     ],
     education: {
