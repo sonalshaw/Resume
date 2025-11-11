@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("name").textContent = profileData.name;
-    document.getElementById("about").textContent = profileData.about;
+    document.getElementById("about").innerHTML = profileData.about;
     
     document.getElementById("address").textContent = `Address: ${profileData.contact.address}`;
     document.getElementById("phone").textContent = `Phone: ${profileData.contact.phone}`;
@@ -42,4 +42,5 @@ document.addEventListener("DOMContentLoaded", () => {
         CGPA: ${profileData.education.cgpa}
     `;
 });
+
 
