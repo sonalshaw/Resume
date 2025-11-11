@@ -1,6 +1,6 @@
 const profileData = {
     name: "Sonal Shaw",
-    about: "I'm a data science engineer with 3 years of experience, passionate about creating impactful solutions. I lead collaboratively, uniting teams, and blend strategic thinking with hands-on work. Eager to learn and adapt, I aim to drive results and grow in a meaningful career.",
+    about: "Data Science Engineer with 3 years of experience in designing and implementing large-scale <em><b>data pipelines</b></em>, <em><b>ETL workflows</b></em>, and <em><b>cloud-based analytics solutions</b></em>. Skilled in <em><b>Python</b></em>, <em><b>SQL</b></em>, <em><b>Snowflake</b></em>, and <em><b>AWS</b></em>, with a proven record of automating data processes, optimizing performance, and enabling data-driven decisions. Collaborative team player who combines strategic thinking with hands-on problem-solving to deliver scalable, impactful outcomes in healthcare technology.",
     contact: {
         address: "Rourkela, Odisha - 769004",
         phone: "+91-6370039436",
@@ -13,32 +13,38 @@ const profileData = {
             role: "Software Engineer II",
             duration: "July 2022 – Present",
             responsibilities: [
-                "Developed and maintained ETL processes using <em><b>Python</b></em> for efficient data extraction, transformation, and loading, ensuring streamlined data movement and reducing manual intervention.",
-                "Created scripts for retrieving and transforming large datasets from <em><b>Hadoop</b></em> clusters, ensuring seamless data flow to support analytical and reporting needs.",
-                "Handled data retrieval from <em><b>Hadoop</b></em>, optimizing query performance and data processing workflows to improve overall system efficiency and scalability.",
-                "Managed <em><b>Control-M</b></em> job scheduling to automate and monitor data processing tasks, ensuring reliability and reducing the risk of human errors in recurring workflows.",
-                "Monitored and maintained logs for data processing workflows, resolving issues promptly to maintain system stability and data pipeline integrity.",
-                "Led <em><b>AWS</b></em> code deployments using <em><b>Bitbucket</b></em>, managing continuous integration and delivery pipelines to enhance deployment speed and reduce manual effort.",
-                "Wrote complex <em><b>SQL</b></em> queries for data validation, reconciliation, and reporting, ensuring high data accuracy and supporting data-driven business decisions.",
-                "Administered and maintained the <em><b>AEDL portal</b></em>, ensuring secure and efficient access to enterprise data resources for improved collaboration and operational visibility.",
-                "Designed and optimized <em><b>Snowflake</b></em> data loading processes through <em><b>AWS</b></em>, improving data storage and retrieval efficiency to support faster analytics and reporting."
+                "Designed, developed, and maintained end-to-end <em><b>ETL workflows</b></em> in <em><b>Python</b></em>, automating data extraction, transformation, and loading for large-scale healthcare datasets, reducing manual intervention by <b>30%</b>.",
+                "Implemented high-volume data ingestion scripts for <em><b>Hadoop</b></em> clusters (>1 TB daily), ensuring seamless data flow for analytics and reporting operations.",
+                "Optimized complex <em><b>SQL</b></em> queries and data validation logic, improving query execution performance by <b>25%</b> and enhancing reporting accuracy.",
+                "Managed and automated recurring data workflows through <em><b>Control-M</b></em>, reducing manual monitoring effort by <b>40%</b> and improving process reliability.",
+                "Led <em><b>AWS</b></em> code deployments using <em><b>Bitbucket CI/CD</b></em>, accelerating release cycles by <b>20%</b> and improving deployment efficiency.",
+                "Monitored and maintained real-time logs for data pipelines, identifying and resolving issues to maintain <b>99.8%</b> pipeline uptime and data accuracy.",
+                "Collaborated cross-functionally with analytics and business teams to translate data requirements into scalable technical solutions.",
+                "Designed and optimized <em><b>Snowflake</b></em> data loading and transformation processes through <em><b>AWS</b></em>, improving query performance and supporting faster analytics delivery."
             ]
         }
     ],
     strengths: [
-        "Proven ability to meet tight deadlines and deliver high-quality results under pressure.",
-        "Excellent communication and presentation skills, capable of conveying complex technical concepts to diverse audiences.",
-        "Strong team player with demonstrated leadership abilities, fostering collaboration and driving team success."
+        "Strong analytical and problem-solving skills with focus on scalability, reliability, and performance optimization.",
+        "Excellent communication and presentation abilities, capable of translating technical insights into actionable business outcomes.",
+        "Proven track record of leadership and teamwork, fostering collaboration and ensuring successful project delivery under tight deadlines."
     ],
     skills: [
-        "JAVA", "Python", "SQL",
-        "Data Structures", "Hadoop",
-        "Snowflake", "AWS", "Control-M"
+        "Python", "SQL", "Java",
+        "ETL Development", "Hadoop",
+        "Snowflake", "AWS", "Control-M",
+        "Data Modeling", "Bitbucket CI/CD",
+        "Data Structures", "Agile/Scrum"
     ],
     education: {
         degree: "B.Tech (Computer Science Engineering)",
         institution: "ITER - BBSR, Odisha",
         year: "2018 – 2022",
         cgpa: "8.37"
-    }
+    },
+    achievements: [
+        "Automated an end-to-end ETL pipeline for clinical data ingestion, cutting manual intervention by <b>50%</b>.",
+        "Integrated <em><b>Snowflake</b></em> with <em><b>AWS</b></em> for real-time analytics, reducing query latency by <b>35%</b>.",
+        "Recognized for proactive resolution of production data quality issues within SLA and cross-team collaboration excellence."
+    ]
 };
